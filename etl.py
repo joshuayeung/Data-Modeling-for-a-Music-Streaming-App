@@ -55,6 +55,7 @@ def process_log_file(cur, filepath):
         results = cur.fetchone()
         
         if results:
+            print(results)
             songid, artistid = results
         else:
             songid, artistid = None, None
