@@ -41,3 +41,5 @@ Remember to run [`create_tables.py`](create_tables.py) before running [`etl.py`]
 Run test.ipynb to confirm your records were successfully inserted into each table.
 
 NOTE: You will not be able to run [`test.ipynb`](test.ipynb), [`etl.ipynb`](etl.ipynb), or [`etl.py`](etl.py) until you have run create_tables.py at least once to create the sparkifydb database, which these other files connect to.
+
+Visit [my blog post](https://towardsdatascience.com/data-modeling-for-a-music-streaming-app-db46a4595e4e) to follow along
